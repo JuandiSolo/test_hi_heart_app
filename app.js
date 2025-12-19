@@ -1,4 +1,4 @@
-const unlockDate = new Date("2025-02-14T00:00:00"); // CHANGE THIS DATE
+const unlockDate = new Date("2026-02-14T00:00:00"); // CHANGE THIS DATE
 const now = new Date();
 
 const title = document.getElementById("title");
