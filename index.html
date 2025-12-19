@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hi App</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For You</title>
 
-  <!-- iOS PWA -->
+  <!-- iOS full screen -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="apple-mobile-web-app-title" content="Hi App">
+  <meta name="apple-mobile-web-app-title" content="For You">
+
+  <!-- App icon -->
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <!-- Splash screen -->
+  <link rel="apple-touch-startup-image" href="splash.png">
 
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <div class="card">
-    <div id="message" class="message hidden">
-      Hi ❤️
+    <div id="title" class="title">⏳ Locked</div>
+    <div id="content" class="content">
+      Come back when it’s time.
     </div>
 
-    <button id="actionButton">
-      Tap me
-    </button>
+    <button id="actionButton">Check</button>
   </div>
 
   <script src="app.js"></script>
